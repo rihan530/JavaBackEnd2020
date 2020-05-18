@@ -1,0 +1,23 @@
+package com.koreaIT.first.level5;
+
+public class Animal {
+	
+	public void crying() {
+		System.out.println("울다");
+	}
+
+	public void crying(Lion lion) {
+		lion.crying();
+		
+	}
+
+	public void crying(Dog dog) {
+		dog.crying();
+		
+	}
+	
+	public void crying(Cat cat) {
+		cat.crying();
+	}
+
+}

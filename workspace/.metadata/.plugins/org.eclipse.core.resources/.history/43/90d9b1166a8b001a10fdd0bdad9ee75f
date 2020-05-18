@@ -1,0 +1,21 @@
+
+public class ForMission5 {
+
+	public static void main(String[] args) {
+		
+		int j = 2;
+		int i = 1;
+		
+		for(; j < 10; j++) {
+			System.out.printf("----%d단----\n", j);
+//			System.out.printf("%d x %d = %d\t", i, j, i*j);			
+			for(; i < 10; i++) {
+				System.out.printf("%d x %d = %d\t", j, i, i*j);
+			}
+			
+			System.out.println("----------");
+		}
+
+	}
+
+}

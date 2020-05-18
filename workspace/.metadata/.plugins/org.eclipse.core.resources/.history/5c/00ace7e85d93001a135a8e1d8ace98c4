@@ -1,0 +1,7 @@
+package com.koreaIT.first.level3;
+
+public class MethodTest4 {
+	public static void main(String[] args) {
+		printSquare(5);
+	}
+}

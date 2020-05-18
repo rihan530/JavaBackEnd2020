@@ -1,0 +1,7 @@
+package com.koreaIT.first.level3;
+
+public class TissueTest {
+	public static void main(String[] args) {
+		Tissue tt = new Tissue();
+	}
+}

@@ -1,0 +1,7 @@
+package com.koreaIT.first.level5;
+
+public class AnimalTest {
+	public static void main(String[] args) {
+		Lion lion = new Lion();
+	}
+}

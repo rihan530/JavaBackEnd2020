@@ -1,0 +1,18 @@
+package com.koreaIT.first.level3;
+
+public class MethodTest4 {
+	public static void main(String[] args) {
+		printStarLine(5);
+		printSquare(5);
+	}
+
+	public static void printStarLine(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void printSquare(int i) {
+		
+		
+	}
+}

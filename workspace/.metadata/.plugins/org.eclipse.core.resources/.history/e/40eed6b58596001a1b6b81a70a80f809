@@ -1,0 +1,22 @@
+package com.koreaIT.first.level5;
+
+public class CalcTest {
+	public static void main(String[] args) {
+		int[][] score = {
+				{30, 40, 55},
+				{10, 89, 100},
+				{40, 11, 99}
+		};
+		
+		//메소드명 : printSumAvg
+		//30, 40, 55 : 합계값, 평균값
+		//10, 89, 100 : 합계값, 평균값
+		//40, 11, 99 : 합계값, 평균값
+		//합계, 합계, 합계
+		// 전체 합계 :
+		// 전체 평균	
+	}
+	public void printSumAvg() {
+			
+		}
+}

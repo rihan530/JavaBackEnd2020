@@ -1,0 +1,15 @@
+package com.koreaIT.first.level4;
+
+public class Human {
+	private String name;
+	private int age;
+	
+	public Human() {
+		System.out.println("기본생성자 호출");
+	}
+
+	public Human(String name, int age) {
+		
+		System.out.println(name + age);
+	}
+}

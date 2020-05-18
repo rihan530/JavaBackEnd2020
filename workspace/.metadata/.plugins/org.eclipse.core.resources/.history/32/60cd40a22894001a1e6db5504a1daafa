@@ -1,0 +1,15 @@
+package com.koreaIT.first.level3.don;
+
+public class Tissue {
+	private int num;
+	
+	public void setNum(int num) {
+		num = 10;
+	}
+
+	public int getNum() {
+		return num;
+	}
+
+	
+}

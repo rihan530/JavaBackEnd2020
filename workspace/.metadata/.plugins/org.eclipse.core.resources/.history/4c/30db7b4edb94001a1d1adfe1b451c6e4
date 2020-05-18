@@ -1,0 +1,20 @@
+package com.koreaIT.first.level3;
+
+public class ObjTest5 {
+	public static void main(String[] args) {
+		Random2 r = new Random2();
+		int r1 = r.getRandom(10);
+		System.out.println(r1);
+		System.out.println(r.getRandom(10));
+		
+	}
+	
+}
+
+class Random2 {
+	int num;
+	
+	int getRandom(int num) {
+		return (int) (Math.random() * num);
+	}
+}

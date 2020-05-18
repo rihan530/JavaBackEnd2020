@@ -1,0 +1,10 @@
+package com.koreaIT.first.level5;
+
+public class printAvg extends Calc{
+
+	public printAvg(int score) {
+		super(score);
+		// TODO Auto-generated constructor stub
+	}
+
+}

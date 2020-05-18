@@ -1,0 +1,21 @@
+
+public class ForMission7 {
+
+	public static void main(String[] args) {
+		int star = 5;
+		int i;
+		int j;
+		
+		for(i = 1,j = 0; i <= star; i++) {
+			System.out.print("*");
+			
+			if(j < star) {
+				System.out.print("*");
+			}
+			j++;
+			System.out.println();
+		}
+
+	}
+
+}

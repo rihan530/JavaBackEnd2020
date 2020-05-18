@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class ConditionMission {
+
+	public static void main(String[] args) {
+		int season;
+		
+		System.out.print("월을 입력해 주세요 : (1~12) ");
+		Scanner sc = new Scanner(System.in);
+		season = sc.nextInt();
+		
+		//switch문
+		switch(season) {
+		case 3: case 4: case 5:
+			System.out.println("봄");
+			break;
+		case 6: case 7: case 8:
+			System.out.println("여름");
+			break;
+		case 9: case 10: case 11:
+			System.out.println("가을");
+			break;
+		case 12: case 1: case 2:
+			System.out.println("겨울");
+			break;
+		default:
+			System.out.println("잘못 입력했습니다.");
+		}
+		
+		//if문
+		if(season >= 3 && season <= 5) {
+			System.out.println("봄");
+		} else if(season >= 6 && season <= 8) {
+			System.out.println("여름");
+		} else if(season >= 9 && season <= 11) {
+			System.out.println("가을");
+		} else if(season >= 1 && season <= 2 || season == 12) {
+			System.out.println("겨울");
+		} else {
+			System.out.println("잘못 입력했습니다.");
+		}
+		
+		
+		
+
+	}
+
+}

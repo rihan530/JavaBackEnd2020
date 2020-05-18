@@ -1,0 +1,13 @@
+package com.koreaIT.first.level4;
+
+public class HumanTest {
+
+	public static void main(String[] args) {
+		Human h1 = new Human("홍길동",25);
+		Human h2 = new Human();
+		
+		
+		System.out.println("Human");
+		h1.printInfo();
+	}
+}

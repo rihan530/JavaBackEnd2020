@@ -1,0 +1,8 @@
+package com.koreaIT.first.level3;
+
+public class ObjTest3 {
+	public static void main(String[] args) {
+		String str = "Hello";
+		String str2 = "Hello";
+	}
+}

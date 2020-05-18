@@ -1,0 +1,21 @@
+package com.koreaIT.first.level5;
+
+public class AnimalTest {
+	public static void main(String[] args) {
+		Lion lion = new Lion();
+		Cat cat = new Cat();
+		Dog dog = new Dog();
+		
+		lion.crying();
+		cat.crying();
+		dog.crying();
+		
+		Animal animal1 = new Dog();
+		Animal animal2 = new Cat();
+		Animal animal3 = new Lion();
+		
+		((Dog)animal1).crying();
+		((Cat)animal2).crying();
+		
+	}
+}

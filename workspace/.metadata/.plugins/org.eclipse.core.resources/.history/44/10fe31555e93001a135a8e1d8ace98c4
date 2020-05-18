@@ -1,0 +1,23 @@
+package com.koreaIT.first.level3;
+
+public class MethodTest4 {
+	public static void main(String[] args) {
+		printStarLine(5);
+		printSquare(5);
+	}
+
+	public static void printStarLine(int star) {
+		for(int i = 0; i < star; i++) {
+			System.out.print("*");
+		}
+		
+	}
+
+	public static void printSquare(int s) {
+		for(int i = 0; i < s; i++) {
+			printStarLine(i);
+			System.out.println();
+		}
+		
+	}
+}

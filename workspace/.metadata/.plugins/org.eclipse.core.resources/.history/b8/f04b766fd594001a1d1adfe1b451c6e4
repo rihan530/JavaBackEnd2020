@@ -1,0 +1,15 @@
+package com.koreaIT.first.level3;
+
+public class ObjTest5 {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Random2 {
+	int num;
+	
+	int getRandom() {
+		return (int) (Math.random() * num);
+	}
+}

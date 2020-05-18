@@ -1,0 +1,13 @@
+
+public class ForMission2 {
+
+	public static void main(String[] args) {
+		int dan = 2;
+		
+		for(int i = 0; i < 9; i++) {
+			System.out.println(dan + " * " + (i+1) + " = " + (dan*(i+1)));
+		}
+
+	}
+
+}

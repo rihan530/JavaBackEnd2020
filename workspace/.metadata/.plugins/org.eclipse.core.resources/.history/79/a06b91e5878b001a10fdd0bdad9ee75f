@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class WhileMission {
+	public static void main(String[] args) {
+		
+		String response;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("음악을 재생하시겠습니까? (Y)");
+		response = sc.next();		
+		
+		while(response == "Y") {
+		
+			System.out.println("음악을 1번 재생했습니다.");
+		
+		}
+	}
+}

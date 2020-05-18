@@ -1,0 +1,7 @@
+package com.koreaIT.first.level3;
+
+public class ObjTest {
+	public static void main(String[] args) {
+		Car car = new Car();
+	}
+}

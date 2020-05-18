@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.koreaIT.method.Method2.Bucket"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.koreaIT.first.level2.Random"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+    <fullyQualifiedTypeName name="com.koreaIT.first.level3.don.Tissue"/>
+    <fullyQualifiedTypeName name="com.koreaIT.first.level3.Random2"/>
+    <fullyQualifiedTypeName name="com.koreaIT.first.level4.Human"/>
+    <fullyQualifiedTypeName name="com.koreaIT.first.level5.Student"/>
+</qualifiedTypeNameHistroy>

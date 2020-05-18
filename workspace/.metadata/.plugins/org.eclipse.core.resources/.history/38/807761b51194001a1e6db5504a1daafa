@@ -1,0 +1,18 @@
+package com.koreaIT.first.level3;
+
+public class ObjTest2 {
+	public static void main(String[] args) {
+		int mainWheel = 4;
+		
+		Car car = new Car();
+		car.wheel = 8;
+	}
+	
+	public static void changeWheel(int wheel) {
+		
+	}
+	
+	public static void changeWheel(Car car) {
+		
+	}
+}

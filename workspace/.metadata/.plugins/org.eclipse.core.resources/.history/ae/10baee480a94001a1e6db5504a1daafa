@@ -1,0 +1,10 @@
+package com.koreaIT.first.level3;
+
+public class ObjTest {
+	public static void main(String[] args) {
+		Car car = new Car(); //레퍼런스 변수에는 한개의 값만 저장됨
+		car.color = "Red";
+		System.out.println(car.color);
+		car.power();
+	}
+}

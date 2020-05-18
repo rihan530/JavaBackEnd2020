@@ -1,0 +1,12 @@
+package com.koreaIT.first.level4;
+
+public class InheritTest {
+	public static void main(String[] args) {
+		Parent parent = new Parent();
+		Child child = new Child();
+		GrandChild gc = ndw GrandChild();
+		parent.print();
+		child.print();
+//		GrandChild.print();
+	}
+}

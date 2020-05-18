@@ -1,0 +1,19 @@
+package com.koreaIT.first.level3;
+
+public class ArrayMission2 {
+	public static void main(String[] args) {
+		int[] arr = new int[5];
+		int[] arr2 = new int[8];
+		
+		setArrDefaultValue(arr, 3);
+		
+		setArrDefaultValue(arr2, 3);
+		
+	}
+
+	public static void setArrDefaultValue(int[] arr, int i) {
+		for(int j = 0; j < arr.length; j++) {
+			
+		}
+	}
+}

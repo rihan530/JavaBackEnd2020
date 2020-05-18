@@ -1,0 +1,6 @@
+package com.koreaIT.first.level4;
+
+public class Human {
+	private String name;
+	private int age;
+}

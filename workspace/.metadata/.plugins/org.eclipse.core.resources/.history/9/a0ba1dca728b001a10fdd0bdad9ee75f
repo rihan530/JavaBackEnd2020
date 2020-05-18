@@ -1,0 +1,32 @@
+
+public class ForMission6 {
+
+	public static void main(String[] args) {
+		int star = 7;
+		int i;
+		int j;
+		
+//		for(i = 1; i <= star; i++) {
+//			for(j = 1; j <= star; j++) {
+//				System.out.printf("*");
+//			}
+//			System.out.println();
+//		}
+		
+		for(i = 1, j = 1; i <= star ; ) {
+			
+			if(j <= star) {
+			System.out.printf("*");
+			j++;
+			} else {
+//				System.out.printf("*");
+				System.out.println();				
+				i++;
+				j = 1;
+
+			}
+		}
+
+	}
+
+}

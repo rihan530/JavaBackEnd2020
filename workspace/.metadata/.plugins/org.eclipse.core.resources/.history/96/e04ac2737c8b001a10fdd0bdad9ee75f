@@ -1,0 +1,22 @@
+
+public class ForMission7 {
+
+	public static void main(String[] args) {
+		int star = 2;
+		int i;
+		int j;
+		
+		for(i = 1,j = 0; i <= star; i++) {
+			System.out.print("*");
+			
+			for(j = 1; j < star; j++) {
+				System.out.print("*");
+			}
+			
+//			j++;
+			System.out.println();
+		}
+
+	}
+
+}

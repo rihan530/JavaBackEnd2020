@@ -1,0 +1,27 @@
+package com.koreaIT.first.level5;
+
+public class Calc {
+	static int csum;
+	static int rsum;
+	static int avg;
+	
+	public static void printSumAvg(int[][] score) {
+		for(int j = 0; j < score.length; j++) {
+			for(int i = 0; i < score.length; i++) {
+				rsum += score[j][i];
+			}
+			System.out.printf("%d %d\n",csum, rsum);
+			rsum = 0;
+		}
+		
+		for(int j = 0; j < score.length; j++) {
+			for(int i = 0; i < score.length; i++) {
+				csum += score[i][j];
+			}
+			System.out.printf("%d %d\n",csum, rsum);
+			csum = 0;
+		}
+	}
+	
+	
+}

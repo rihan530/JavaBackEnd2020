@@ -1,0 +1,14 @@
+package com.koreaIT.first.level4;
+
+public class Parent extends Object{
+	
+	private int weight;
+	
+	public Parent(int weight) {
+		this.weight = weight;
+	}
+
+	public void print() {
+		System.out.println("I'm Parent.");
+	}
+}

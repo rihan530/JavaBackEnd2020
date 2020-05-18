@@ -1,0 +1,15 @@
+package com.koreaIT.first.level5;
+
+public class printSum extends Calc{
+
+	public printSum(int score) {
+		super(score);
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public void printSumAvg() {
+		
+	}
+
+}

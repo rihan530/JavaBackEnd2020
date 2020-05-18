@@ -1,0 +1,33 @@
+package com.koreaIT.first.level3;
+
+public class MethodTest4 {
+	public static void main(String[] args) {
+		printStarLine(5);
+		printSquare(5);
+		printPyramid(10);
+	}
+
+	public static void printStarLine(int star) {
+		for(int i = 0; i < star; i++) {
+			System.out.print("*");
+			
+		}
+		
+	}
+
+	public static void printSquare(int ss) {
+		System.out.println();
+		for(int i = 0; i < ss; i++) {
+			printStarLine(ss);
+			System.out.println();
+		}
+		
+	}
+	
+	public static void printPyramid(int sp) {
+		for(int i = 0; i < sp; i++) {
+			printStarLine(i);
+			System.out.println();
+		}
+	}
+}
